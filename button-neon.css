@@ -1,2 +1,5 @@
-/* Official JaceBen — mature white neon buttons */
-.magnetic-btn,.shop-btn,button:not(.menu-toggle),input[type="submit"],input[type="button"]{transition:color .3s ease,background .3s ease,border-color .3s ease,box-shadow .3s ease,transform .3s ease}.magnetic-btn{box-shadow:0 0 7px rgba(255,255,255,.18),0 0 18px rgba(255,255,255,.07)}.magnetic-btn:hover,.shop-btn:hover,button:not(.menu-toggle):hover,input[type="submit"]:hover,input[type="button"]:hover{box-shadow:0 0 8px rgba(255,255,255,.45),0 0 22px rgba(255,255,255,.18),0 0 42px rgba(255,255,255,.08)}.shop-btn{box-shadow:0 0 6px rgba(255,255,255,.12),0 0 14px rgba(255,255,255,.05)}
+/* Official JaceBen — mature white neon controls, loaded after styles.css */
+.magnetic-btn,.shop-btn,button:not(.menu-toggle),input[type="submit"],input[type="button"],.release,.collab-row,.contact-line,.social-links a{transition:color .3s ease,background .3s ease,border-color .3s ease,box-shadow .3s ease,transform .3s ease}
+.magnetic-btn,.shop-btn,button:not(.menu-toggle),input[type="submit"],input[type="button"]{box-shadow:0 0 7px rgba(255,255,255,.18)!important}
+.release,.collab-row,.contact-line,.social-links a{box-shadow:0 0 6px rgba(255,255,255,.12)!important}
+.magnetic-btn:hover,.shop-btn:hover,button:not(.menu-toggle):hover,input[type="submit"]:hover,input[type="button"]:hover,.release:hover,.collab-row:hover,.contact-line:hover,.social-links a:hover{box-shadow:0 0 9px rgba(255,255,255,.42),0 0 20px rgba(255,255,255,.16)!important}
