@@ -1,0 +1,6 @@
+/* JaceBen global logo + control glow */
+.site-header .brand{position:relative!important;display:block!important;isolation:isolate!important;overflow:visible!important}
+.site-header .brand:after{content:"";position:absolute;z-index:-1;left:50%;top:50%;width:150%;height:150%;transform:translate(-50%,-50%);border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.20),rgba(255,255,255,.07) 38%,transparent 70%);filter:blur(13px);pointer-events:none}
+.site-header .brand img{position:relative!important;z-index:2!important;display:block!important;width:100%!important;height:auto!important;filter:drop-shadow(0 0 2px rgba(255,255,255,.95)) drop-shadow(0 0 6px rgba(255,255,255,.55))!important}
+.magnetic-btn,.shop-btn,button:not(.menu-toggle),input[type=submit],input[type=button]{box-shadow:0 0 8px rgba(255,255,255,.18)!important}
+.magnetic-btn:hover,.shop-btn:hover,button:not(.menu-toggle):hover,input[type=submit]:hover,input[type=button]:hover{box-shadow:0 0 10px rgba(255,255,255,.42),0 0 22px rgba(255,255,255,.15)!important}
