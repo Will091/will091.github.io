@@ -1,0 +1,19 @@
+/* JaceBen responsive performance layer */
+html{-webkit-tap-highlight-color:transparent}
+body{overscroll-behavior-x:none}
+@media (max-width:900px){
+  .site-header{contain:layout paint;}
+  .hero:before{filter:blur(5px);}
+  .feature-card:hover,.collab-row:hover,.release:hover{transform:none;padding-left:5px;box-shadow:none;}
+  .hero-visual:hover img,.image-card:hover img,.photo-grid figure:hover img{transform:none;}
+  .magnetic-btn:hover{transform:none;box-shadow:none;}
+}
+@media (max-width:600px){
+  .site-header{width:calc(100% - 16px);}
+  .hero-visual{contain:paint;}
+  .photo-grid figure{content-visibility:auto;contain-intrinsic-size:500px;}
+  .merch-card,.feature-card,.contact-panel,.collab-row,.release{contain:layout paint;}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;}
+}
